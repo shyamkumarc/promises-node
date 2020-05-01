@@ -5,7 +5,7 @@ promise1 = new Promise((resolve, reject) => {
     setTimeout(() => {
         message += "my";
         resolve(message);
-    }, 2000)
+    }, 3000)
 })
 promise3 = new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -17,10 +17,10 @@ promise2 = new Promise((resolve, reject) => {
     setTimeout(() => {
         message += " first";
         resolve(message);
-    }, 2000)
+    }, 100)
 })
 
-
+//test 
 
 var printResult = (results) => {
     console.log("Results = ", results, "message = ", message)
